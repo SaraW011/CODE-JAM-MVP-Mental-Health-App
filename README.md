@@ -15,6 +15,7 @@ Link to project on github-pages: https://saraw011.github.io/MVP-Mental-Health-Ap
 * Grid Layout and grid areas ?
 
 **Images**
+Fitness.jpg
 
 **Figma**
 
