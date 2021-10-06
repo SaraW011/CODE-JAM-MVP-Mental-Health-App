@@ -1,0 +1,10 @@
+.link {
+    color: white;
+    list-style-type: none;
+    transition: opacity .5s ease-in-out;
+    text-decoration:none;
+}
+
+.link:hover {
+    opacity: .5;  
+}

@@ -14,17 +14,18 @@
             <header class="header"> 
 
                 <div class="logo">
-                        <a href="#" target="_self"><img src="./images/logo.png" class="logo" alt="Heart logo" /></a>
+                        <a class="link" href="#" target="_self"><img src="./images/logo.png" class="logo" alt="Heart logo" /></a>
+                        <p class="logo__text">Logo</p>
                 </div>
 
-                <nav class="main-menu">
-                <ul>
-                        <li><a href="#" target="_self">Check-in</a></li>
-                        <li><a href="#" target="_self">For you</a></li>
-                        <li><a href="#" target="_self">Community</a></li>
-                        <li><a href="#" target="_self">Leave a message</a></li>
+                <nav >
+                <ul class="header__menu">
+                        <li><a class="header__menu-item link" href="#" target="_self">Check-in</a></li>
+                        <li><a class="header__menu-item link" href="#" target="_self">For you</a></li>
+                        <li><a class="header__menu-item link" href="#" target="_self">Community</a></li>
+                        <li><a class="header__menu-item link" href="#" target="_self">Leave a message</a></li>
                 </ul>
-            </nav> <!-- end main-menu -->
+            </nav> 
 
             <div class="profile">
                 <img class="profile__avatar" src="./images/avatar.png" alt="profile avatar" />
@@ -41,23 +42,28 @@
 
 <h1 class="title">How are you feeling today?</h1>
 
-<aside class="check-in__nav">
-        <ul>
-            <li><a href="#" target="_self">Anxious</a></li>
-            <li><a href="#" target="_self">Unmotivated</a></li>
-            <li><a href="#" target="_self">Lonely</a></li>
-            <li><a href="#" target="_self">Sad</a></li>
-            <li><a href="#" target="_self">Tired</a></li>
-            <li><a href="#" target="_self">Stressed</a></li>
-            <li><a href="#" target="_self">Positive</a></li>
+<div class="check-in__content">
+
+<aside>
+        <ul class="check-in__nav">
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Anxious</a></li>
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Unmotivated</a></li>
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Lonely</a></li>
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Sad</a></li>
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Tired</a></li>
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Stressed</a></li>
+            <li class="check-in__nav-link"><a class="link" href="#" target="_self">Positive</a></li>
         </ul>
         </aside>
-
-        <article class="check-in__cards">   <!-- card-grid -->
-
-            <p>Read all articles</p>
+<!-- card-grid -->
+        <article class="check-in__cards">   
+                    <img class="check-in__cards-item" src="./images/card-article.png" alt="article" />
+                    <img class="check-in__cards-item" src="./images/card-video.png" alt="video article" />
+                    <img class="check-in__cards-item" src="./images/card-story.png" alt="story article" />
+          
+                    <p>Read all articles</p>
             </article>
-
+        </div>
 
     </section> <!-- end check-in -->
                 
@@ -67,7 +73,15 @@
 
 <h2 class="title">You are not alone</h2>
 <p class="subtitle">Messages for you</p>
-<div class="for-you__slider"></div>
+<div class="for-you__slide-show">
+        <!-- 
+        <img class="for-you__slide-show-item" src="./images/message-1.png" alt="personal message 1" />
+        <img class="for-you__slide-show-item" src="./images/message-2.png" alt="personal message 2" />
+        <img class="for-you__slide-show-item" src="./images/message-3.png" alt="personal message 3" />
+        <img class="for-you__slide-show-item" src="./images/message-4.png" alt="personal message 4" /> 
+    -->
+    <img class="for-you__slide-show-item" src="./images/slide-show.png" alt="all messages from slideshow" />
+</div>
 
                 </section> <!-- end for-you -->
 
@@ -75,8 +89,11 @@
                 <section class="community">
 
                         <h2 class="title">Community</h2>
-                        <p class="subtitle">Messages for you</p>
-                        <div class="community__cards"></div>
+                        <p class="subtitle">Messages from community</p>
+                        <div class="community__cards">
+                                <img class="community__cards-comment" src="./images/comment-1.png" alt="personal message 4" />
+                                <img class="community__cards-comment" src="./images/comment-2.png" alt="personal message 4" />
+                        </div>
 
                 </section> <!-- end community -->
 
@@ -86,9 +103,9 @@
                         <p class="subtitle">To a person who feels <span class="message__dropdown">emotion</span></p> 
                         <nav class="message__menu">
                                 <ul>
-                                        <li><a href="#" target="_self">Ready to send</a></li>
-                                        <li><a href="#" target="_self">Reactions</a></li>
-                                        <li><a href="#" target="_self">Your message</a></li>
+                                        <li><a class="link" href="#" target="_self">Ready to send</a></li>
+                                        <li><a class="link" href="#" target="_self">Reactions</a></li>
+                                        <li><a class="link" href="#" target="_self">Your message</a></li>
                                     </ul>
                         </nav>
 
@@ -120,38 +137,36 @@
                     <nav class="footer__columns">
                             <div class="footer__column"> <h3 class="footer__column-title">Blog</h3>
                                 <ul class="footer__list">
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">All materials</a></li>
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">Subscribe</a></li>
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">Community</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">All materials</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">Subscribe</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">Community</a></li>
                                     </ul>
                             </div>
                             <div class="footer__column"> <h3 class="footer__column-title">Support</h3>
                                 <ul class="footer__list">
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">FAQ</a></li>
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">Mental health resources</a></li>
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">Support</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">FAQ</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">Mental health resources</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">Support</a></li>
                                     </ul>
                             </div>
                             <div class="footer__column"> <h3 class="footer__column-title">About Us</h3>
                                 <ul class="footer__list">
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">More about us</a></li>
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">Press</a></li>
-                                        <li class="footer__list-item"><a href="#" class="footer__list-link" target="_blank">Carees</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">More about us</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">Press</a></li>
+                                        <li class="footer__list-item"><a class="link" href="#" class="footer__list-link" target="_blank">Carees</a></li>
                                     </ul>
                             </div>
                             <div class="footer__column"> <h3 class="footer__column-title">Get the app</h3>
                                 <ul class="footer__app-logos">
-                                        <li><a href="#" target="_blank"><img src="./images/apple-logo.png" alt="Apple Store logo"/></a></li>
-                                        <li><a href="#" target="_blank"><img src="./images/google-play.png" alt="Google Play logo"/></a></li>
+                                        <li><a class="link" href="#" target="_blank"><img src="./images/apple-logo.png" alt="Apple Store logo"/></a></li>
+                                        <li><a class="link" href="#" target="_blank"><img src="./images/google-play.png" alt="Google Play logo"/></a></li>
                                     </ul>
                             
                             </div>
 
                     </nav>
 
-
-
-                <p class="footer__copyright">© 2021. copyright</p>
+                <!-- <p class="footer__copyright">© 2021. copyright</p> -->
             </footer> 
             
 </div>  <!-- end page -->
