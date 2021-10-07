@@ -1,5 +1,6 @@
 .message__menu-items {
     display: flex;
-    align-items: baseline;
     list-style: none;
+    gap: 35px;
+    padding: 0;
 }
