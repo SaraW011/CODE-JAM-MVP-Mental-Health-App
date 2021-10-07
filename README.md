@@ -6,8 +6,8 @@ __________________________________________________________
 The focus of this project was to create a colaborative MVP product...
 
 ### Github-pages project:
-Link to project on github:  https://github.com/SaraW011/MVP-Mental-Health-App
-Link to project on github-pages: https://saraw011.github.io/MVP-Mental-Health-App/
+[Link to project on github:]  https://github.com/SaraW011/MVP-Mental-Health-App/
+[Link to project on github-pages:] https://saraw011.github.io/MVP-Mental-Health-App/
 
 ### Course Material Included
 * Adaptive Web Design and Working with Layouts
