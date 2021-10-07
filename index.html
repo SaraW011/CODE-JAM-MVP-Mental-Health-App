@@ -19,7 +19,7 @@
 
                 <nav>
                     <ul class="header__menu">
-                        <li><a class="header__menu-item link" href="#" target="_self">Check-in</a></li>
+                        <li><a class="header__menu-item  header__menu-item_hover link" href="#" target="_self">Check-in</a></li>
                         <li><a class="header__menu-item link" href="#" target="_self">For you</a></li>
                         <li><a class="header__menu-item link" href="#" target="_self">Community</a></li>
                         <li><a class="header__menu-item link" href="#" target="_self">Leave a message</a></li>
@@ -27,7 +27,7 @@
                 </nav>
 
                 <div class="profile">
-                    <img class="profile__avatar" src="./images/avatar.png" alt="profile avatar" />
+                    <img class="profile__avatar link" src="./images/avatar.png" alt="profile avatar" />
                     <p class="profile__name">Usagi</p>
                 </div>
             </header>
@@ -43,7 +43,8 @@
                             <ul class="check-in__nav">
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Anxious</a></li>
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Unmotivated</a></li>
-                                <li class="check-in__nav-link"><a class="link" href="#" target="_self">Lonely</a></li>
+                                <li class="check-in__nav-link_hover"><a href="#" target="_self"><img src="./images/status-lonly.png" width="300" alt="menu hover effect"/></a></li>
+                                <!-- <li class="check-in__nav-link"><a class="link" href="#" target="_self">Lonely</a></li> -->
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Sad</a></li>
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Tired</a></li>
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Stressed</a></li>
@@ -55,8 +56,10 @@
                             <img class="check-in__cards-item" src="./images/card-article.png" alt="article" />
                             <img class="check-in__cards-item" src="./images/card-video.png" alt="video article" />
                             <img class="check-in__cards-item" src="./images/card-story.png" alt="story article" />
-
-                            <p>Read all articles</p>
+<div class="check-in__read-wrapper link">
+                            <p>Read all articles </p>
+                                <img class="check-in__read-btn" src="./images/read-more-btn.png" alt="read more btn" />
+                            </div>
                         </article>
                     </div>
                 </section>
@@ -92,7 +95,7 @@
                 <!-- message -->
                 <section class="message">
                         <h2 class="title">Leave a message</h2>
-                        <p class="subtitle">To a person who feels <span class="message__dropdown">emotion</span></p> 
+                        <p class="subtitle">To a person who feels <span class="message__dropdown">emotion<img class="message__dropdown-arrow" src="./images/down-arrow.png" alt="click" /></span></p> 
                         <nav class="message__menu">
                                 <ul class="message__menu-items">
                                         <li><button class="message__menu-item"><a class="link" href="#" target="_self">Ready to send</a></button></li>

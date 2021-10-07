@@ -1,9 +1,15 @@
 .message__menu-item {
     height: 69px;
     width: 214px;
-    background-color: #7474DD;
     border-radius: 40px;
     padding: 0;
-    border: none;
-    
+    border-color: #7474DD;
+    border-width: 3px;
+    background: rgba(0,0,0,0);
+    cursor:pointer; 
+}
+
+
+.message__menu-item:hover {
+    background-color: #7474DD;
 }

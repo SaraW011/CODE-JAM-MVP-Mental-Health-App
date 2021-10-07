@@ -1,3 +1,4 @@
 .profile__name {
-
+    display: inline;
+    padding-left: 24px;
 }

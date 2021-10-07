@@ -19,8 +19,11 @@
 @import url("../blocks/check-in/__content/check-in__content.css");
 @import url("../blocks/check-in/__nav/check-in__nav.css");
 @import url("../blocks/check-in/__nav-link/check-in__nav-link.css");
+@import url("../blocks/check-in/__nav-link/_hover/check-in__nav-link_hover.css");
 @import url("../blocks/check-in/__cards/check-in__cards.css");
 @import url("../blocks/check-in/__cards-item/check-in__cards-item.css");
+@import url("../blocks/check-in/__read-wrapper/check-in__read-wrapper.css");
+@import url("../blocks/check-in/__read-btn/check-in__read-btn.css");
 
 @import url("../blocks/for-you/for-you.css");
 @import url("../blocks/for-you/__slide-show/for-you__slide-show.css");
@@ -33,6 +36,7 @@
 
 @import url("../blocks/message/message.css");
 @import url("../blocks/message/__dropdown/message__dropdown.css");
+@import url("../blocks/message/__dropdown-arrow/message__dropdown-arrow.css");
 @import url("../blocks/message/__menu/message__menu.css");
 @import url("../blocks/message/__buttons/message__buttons.css");
 @import url("../blocks/message/__button/message__button.css");
@@ -50,5 +54,6 @@
 @import url("../blocks/footer/__app-logos/footer__app-logos.css");
 
 @import url("../blocks/link/link.css");
+@import url("../blocks/header/__menu-item/_hover/header__menu-item_hover.css");
 
 @import url("../blocks/root/root.css");

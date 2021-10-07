@@ -1,0 +1,8 @@
+.check-in__read-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 70%;
+    cursor:pointer;
+}

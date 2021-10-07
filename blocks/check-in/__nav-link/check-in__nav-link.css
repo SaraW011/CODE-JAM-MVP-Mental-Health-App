@@ -1,3 +1,6 @@
 .check-in__nav-link {
     padding-bottom: 50px;
+    text-align: center;
+    max-width: 300px;
+    padding-right: 120px;
 }

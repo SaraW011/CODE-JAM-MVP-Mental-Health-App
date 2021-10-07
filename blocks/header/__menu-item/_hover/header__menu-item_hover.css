@@ -1,0 +1,13 @@
+.header__menu-item_hover  {
+    position: relative;
+}
+.header__menu-item_hover:before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -15px;
+    left: 15px;
+    width: 30%;
+    border-radius: 15px;
+    border-bottom: 3px solid #7474DD;
+}
