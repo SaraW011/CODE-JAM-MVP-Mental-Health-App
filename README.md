@@ -3,7 +3,7 @@
 __________________________________________________________
 
 ## Project Description
-The focus of this project...
+The focus of this project was to create a colaborative MVP product...
 
 ### Github-pages project:
 Link to project on github:  https://github.com/SaraW011/MVP-Mental-Health-App
