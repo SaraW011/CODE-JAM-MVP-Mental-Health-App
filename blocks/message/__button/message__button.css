@@ -4,8 +4,12 @@
     border-radius: 20px;
     border: none;
     color: #1C194E;
+    background-color: #F8F0FF;
+    padding: 0;
 }
 
 .message__button:hover {
-   background-color: rgb(138, 200, 255);
+        box-shadow: 0 4px 14px 0px #B6B4DC;
+        overflow: hidden;
+        cursor: pointer;
 }

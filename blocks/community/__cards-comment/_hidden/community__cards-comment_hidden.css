@@ -1,0 +1,7 @@
+.community__cards-comment_hidden {
+display: none;
+position: absolute;
+left: 50%;
+cursor: pointer;
+
+}

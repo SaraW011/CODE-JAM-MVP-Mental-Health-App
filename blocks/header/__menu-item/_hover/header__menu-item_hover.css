@@ -1,5 +1,9 @@
 .header__menu-item_hover  {
     position: relative;
+    color: white;
+    list-style-type: none;
+    transition: opacity .5s ease-in-out;
+    text-decoration: none;
 }
 .header__menu-item_hover:before {
     content: '';

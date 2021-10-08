@@ -19,7 +19,7 @@
 
                 <nav>
                     <ul class="header__menu">
-                        <li><a class="header__menu-item  header__menu-item_hover link" href="#" target="_self">Check-in</a></li>
+                        <li><a class="header__menu-item  header__menu-item_hover" href="#" target="_self">Check-in</a></li>
                         <li><a class="header__menu-item link" href="#" target="_self">For you</a></li>
                         <li><a class="header__menu-item link" href="#" target="_self">Community</a></li>
                         <li><a class="header__menu-item link" href="#" target="_self">Leave a message</a></li>
@@ -28,7 +28,8 @@
 
                 <div class="profile">
                     <img class="profile__avatar link" src="./images/avatar.png" alt="profile avatar" />
-                    <p class="profile__name">Usagi</p>
+                    <!-- <p class="profile__name">Usagi</p> -->
+                    <a class="profile__name" href="./pages/journal.html">Usagi</a>
                 </div>
             </header>
 
@@ -49,6 +50,7 @@
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Tired</a></li>
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Stressed</a></li>
                                 <li class="check-in__nav-link"><a class="link" href="#" target="_self">Positive</a></li>
+                                <li class="check-in__nav-link"><img class="check-in__nav-link-button link" src="./images/down-arrow.png" alt="see more btn"/></li>
                             </ul>
                         </aside>
                         <!-- card-grid -->
@@ -86,8 +88,9 @@
                     <h2 class="title">Community</h2>
                     <p class="subtitle">Messages from community</p>
                     <div class="community__cards">
-                        <img class="community__cards-comment" src="./images/comment-1.png" alt="personal message 4" />
-                        <img class="community__cards-comment" src="./images/comment-2.png" alt="personal message 4" />
+                        <img class="community__cards-comment" src="./images/comment-1.png" alt="personal message 1" />
+                        <img class="community__cards-comment_hidden" src="./images/reply.png" alt="reply message" />
+                        <img class="community__cards-comment" src="./images/comment-2.png" alt="personal message 2" />
                     </div>
                 </section>
                 <!-- end community -->
@@ -95,10 +98,10 @@
                 <!-- message -->
                 <section class="message">
                         <h2 class="title">Leave a message</h2>
-                        <p class="subtitle">To a person who feels <span class="message__dropdown">emotion<img class="message__dropdown-arrow" src="./images/down-arrow.png" alt="click" /></span></p> 
+                        <p class="subtitle">To a person who feels<span class="message__dropdown">emotion<img class="message__dropdown-arrow" src="./images/down-arrow.png" alt="click" /></span></p> 
                         <nav class="message__menu">
                                 <ul class="message__menu-items">
-                                        <li><button class="message__menu-item"><a class="link" href="#" target="_self">Ready to send</a></button></li>
+                                        <li><button class="message__menu-item message__menu-item_active"><a class="link" href="#" target="_self">Ready to send</a></button></li>
                                         <li><button class="message__menu-item"><a class="link" href="#" target="_self">Reactions</a></button></li>
                                         <li><button class="message__menu-item"><a class="link" href="#" target="_self">Your message</a></button></li>
                                 </ul>
@@ -116,7 +119,7 @@
                 </div> 
 
                 <form class="message__form">
-                    <input class="message__form-text" type="text" id="text" placeholder="Your message" name="message-text">
+                    <input class="message__form-text" type="text" id="text" placeholder="   Your message" name="message-text">
                     <button class="message__form-button" type="submit">Send</button>
                   </form>
 
@@ -132,25 +135,25 @@
                     <div class="footer__column">
                         <h3 class="footer__column-title">Blog</h3>
                         <ul class="footer__list">
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">All materials</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">Subscribe</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">Community</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">All materials</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">Subscribe</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">Community</a></li>
                         </ul>
                     </div>
                     <div class="footer__column">
                         <h3 class="footer__column-title">Support</h3>
                         <ul class="footer__list">
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">FAQ</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">Mental health resources</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">Support</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">FAQ</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">Mental health resources</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">Support</a></li>
                         </ul>
                     </div>
                     <div class="footer__column">
                         <h3 class="footer__column-title">About Us</h3>
                         <ul class="footer__list">
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">More about us</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">Press</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link link" href="#" target="_blank">Carees</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">More about us</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">Press</a></li>
+                            <li class="footer__list-item"><a class="footer__list-link" href="#" target="_blank">Carees</a></li>
                         </ul>
                     </div>
                     <div class="footer__column">
@@ -165,8 +168,6 @@
                         </ul>
                     </div>
                 </nav>
-
-                <!-- <p class="footer__copyright">© 2021. copyright</p> -->
             </footer>
         </div>
         <!-- end page -->

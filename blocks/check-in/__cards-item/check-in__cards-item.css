@@ -7,3 +7,9 @@
     box-shadow: 0 6px 24px 3px #B6B4DC;
     overflow: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+    .check-in__cards-item {
+        width: 200px;
+    }
+  }

@@ -1,3 +1,8 @@
 .community__cards-comment {
     margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.community__cards-comment:hover + .community__cards-comment_hidden {
+    display: block;
 }

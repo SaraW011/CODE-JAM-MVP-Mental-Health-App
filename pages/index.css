@@ -19,7 +19,7 @@
 @import url("../blocks/check-in/__content/check-in__content.css");
 @import url("../blocks/check-in/__nav/check-in__nav.css");
 @import url("../blocks/check-in/__nav-link/check-in__nav-link.css");
-@import url("../blocks/check-in/__nav-link/_hover/check-in__nav-link_hover.css");
+@import url("../blocks/check-in/__nav-link-button/check-in__nav-link-button.css");
 @import url("../blocks/check-in/__cards/check-in__cards.css");
 @import url("../blocks/check-in/__cards-item/check-in__cards-item.css");
 @import url("../blocks/check-in/__read-wrapper/check-in__read-wrapper.css");
@@ -33,6 +33,7 @@
 @import url("../blocks/community/community.css");
 @import url("../blocks/community/__cards/community__cards.css");
 @import url("../blocks/community/__cards-comment/community__cards-comment.css");
+@import url("../blocks/community/__cards-comment/_hidden/community__cards-comment_hidden.css");
 
 @import url("../blocks/message/message.css");
 @import url("../blocks/message/__dropdown/message__dropdown.css");
@@ -49,13 +50,16 @@
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__columns/footer__columns.css");
 @import url("../blocks/footer/__column/footer__column.css");
-@import url("../blocks/footer/__column/footer__column.css");
+@import url("../blocks/footer/__column-title/footer__column-title.css");
 @import url("../blocks/footer/__list/footer__list.css");
 @import url("../blocks/footer/__list-item/footer__list-item.css");
 @import url("../blocks/footer/__list-link/footer__list-link.css");
 @import url("../blocks/footer/__app-logos/footer__app-logos.css");
 
 @import url("../blocks/link/link.css");
+@import url("../blocks/check-in/__nav-link/_hover/check-in__nav-link_hover.css");
 @import url("../blocks/header/__menu-item/_hover/header__menu-item_hover.css");
+@import url("../blocks/message/__menu-item/_active/message__menu-item_active.css");
+@import url("../blocks/journal/jornal.css");
 
 @import url("../blocks/root/root.css");

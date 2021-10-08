@@ -5,4 +5,12 @@
     background-color: #CAC9DC;
     color: white;
     border: none;
+    padding: 0;
+    cursor: pointer;
 }
+
+.message__form-button:hover {
+    background-color: #5353C9;
+}
+
+

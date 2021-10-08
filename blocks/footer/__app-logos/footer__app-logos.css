@@ -1,6 +1,6 @@
 .footer__app-logos {
     list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
 }

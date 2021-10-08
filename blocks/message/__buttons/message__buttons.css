@@ -3,4 +3,5 @@
     grid-template-columns: 270px 270px 270px;
     grid-gap: 30px;
     padding-left: 30px;
+    cursor: pointer;
 }

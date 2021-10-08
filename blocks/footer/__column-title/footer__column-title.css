@@ -1,6 +1,7 @@
 .footer__column-title {
+    color: #CAC9DC;
     font-family: Raleway;
     font-weight: 700;
     font-size: 30px;
-
+    margin: 0 0 20px 0;
 }
