@@ -5,3 +5,9 @@
     padding-left: 30px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .message__buttons {
+        grid-template-columns: 270px 270px;    }
+}
