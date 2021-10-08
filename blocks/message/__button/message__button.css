@@ -5,3 +5,7 @@
     border: none;
     color: #1C194E;
 }
+
+.message__button:hover {
+   background-color: rgb(138, 200, 255);
+}

@@ -1,0 +1,8 @@
+.message__form-button {
+    width: 270px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #CAC9DC;
+    color: white;
+    border: none;
+}

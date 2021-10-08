@@ -3,10 +3,10 @@
     width: 214px;
     border-radius: 40px;
     padding: 0;
-    border-color: #7474DD;
-    border-width: 3px;
+    border:3px solid #7474DD;
     background: rgba(0,0,0,0);
-    cursor:pointer; 
+    cursor: pointer;
+     
 }
 
 
