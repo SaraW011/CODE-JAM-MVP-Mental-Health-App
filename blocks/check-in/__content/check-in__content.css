@@ -1,5 +1,17 @@
 .check-in__content {
     display: flex;
     flex-direction: row;
+<<<<<<< Updated upstream
     
 }
+=======
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 720px) {
+    .check-in__content {
+        flex-direction: column;
+    }
+  }
+>>>>>>> Stashed changes
