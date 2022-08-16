@@ -10,6 +10,9 @@ __________________________________________________________
 
 The MVP we've created is a digital service (web-app) that can benefit a person in lockdown or in social isolation. The app aims to provide group support for a person in a situation of social distancing. It aims to create a safe space for one in need of emotional peer-support. 
 
+## YouTube Presentation of project:
+https://www.youtube.com/watch?v=Si78nVHDCP0&t=29s
+
 ## Challenges
 
 * The main focus as group was to create a cohesive product that brought together all of our individual talents as web designers and developers. 
