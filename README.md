@@ -22,11 +22,8 @@ The MVP we've created is a digital service (web-app) that can benefit a person i
 * Additional development of personal insight area (journal) as well as motivational tips area. 
 
 ### Github-pages project:
-[Link to project on Github](https://github.com/SaraW011/MVP-Mental-Health-App/)
 
-[Link to main project page on Github-pages](https://saraw011.github.io/MVP-Mental-Health-App/)
-
-[Link to secondary page, can be accessed from "user name - Usagi" on Github-pages](https://saraw011.github.io/MVP-Mental-Health-App/pages/journal.html)
+[Link to live page](https://saraw011.github.io/CODE-JAM-MVP-Mental-Health-App/)
 
 **Figma**
 
