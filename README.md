@@ -10,6 +10,10 @@ __________________________________________________________
 
 The MVP we've created is a digital service (web-app) that can benefit a person in lockdown or in social isolation. The app aims to provide group support for a person in a situation of social distancing. It aims to create a safe space for one in need of emotional peer-support. 
 
+### Github-pages project:
+
+[Link to live page](https://saraw011.github.io/CODE-JAM-MVP-Mental-Health-App/)
+
 ## YouTube Presentation of project:
 https://www.youtube.com/watch?v=Si78nVHDCP0&t=29s
 
@@ -23,10 +27,6 @@ https://www.youtube.com/watch?v=Si78nVHDCP0&t=29s
 * Additional media-quarry functionality
 * JS for better user experience  
 * Additional development of personal insight area (journal) as well as motivational tips area. 
-
-### Github-pages project:
-
-[Link to live page](https://saraw011.github.io/CODE-JAM-MVP-Mental-Health-App/)
 
 **Figma**
 
